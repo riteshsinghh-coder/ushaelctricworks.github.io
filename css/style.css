@@ -31,11 +31,12 @@ h6 {
         margin-top: 30px;
     }
 }
-@media (max-width: 374px) {
+@media (max-width: 600px) {
    * {
      overflow-x: hidden  ;
    }
 }
+
 
 
 /*--------------------------------------------------------------
@@ -175,7 +176,7 @@ h6 {
     color: #fff;
     padding-left: 6px;
     display: inline-block;
-    line-height: 40px;
+    line-height: 60px;
     transition: 0.3s;
     font-size: 16px;
 }
@@ -256,7 +257,7 @@ h6 {
     }
 
     #hero h1 {
-        font-size: 58px;
+        font-size: 28px;
         line-height: 36px;
     }
 
@@ -285,7 +286,7 @@ h6 {
         line-height: 24px;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 520px) {
     #hero:before {
         content: "";
         position: absolute;
@@ -304,7 +305,11 @@ h6 {
         font-size: 13px;
         line-height: 24px;
     }
+    *{
+        overflow-x: hidden;
+    }
 }
+
 
 /*--------------------------------------------------------------
 # Sections General

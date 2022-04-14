@@ -176,7 +176,7 @@ h6 {
     color: #fff;
     padding-left: 6px;
     display: inline-block;
-    line-height: 30px;
+    line-height: 60px;
     transition: 0.3s;
     font-size: 16px;
 }
@@ -364,6 +364,26 @@ section {
        line-height: 24px;
    }
 }
+@media (max-width: 520px) {
+   
+   .about h2 {
+       font-size: 21px;
+       line-height: 26px;
+   }
+   .about h5 {
+       font-size: 15px;
+       line-height: 26px;
+   }
+   .about p {
+       font-size: 13px;
+       line-height: 26px;
+   }
+
+   .about .img-fluid {
+       width: 84px;
+       line-height: 24px;
+   }
+}
 
 
 /*--------------------------------------------------------------
@@ -397,6 +417,23 @@ section {
     color: black;
 }
 @media (max-width: 320px) {
+   
+   .services h2 {
+       font-size: 21px;
+       line-height: 26px;
+   }
+   .services h5 {
+       font-size: 15px;
+       line-height: 26px;
+   }
+   .services p {
+       font-size: 13px;
+       line-height: 26px;
+   }
+
+   
+}
+@media (max-width: 520px) {
    
    .services h2 {
        font-size: 21px;
@@ -607,6 +644,25 @@ h2 {
    
 }
 @media (max-width: 375px) {
+   .details{
+       display: block;
+   }
+   .factsheet{
+       margin-left: 5px;
+       width: 60vh;
+   }
+   .details .factsheet h5 {
+       font-size: 21px;
+       line-height: 26px;
+   }
+   .details .factsheet li {
+       font-size: 13px;
+       line-height: 26px;
+   }
+
+   
+}
+@media (max-width: 520px) {
    .details{
        display: block;
    }
